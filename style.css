@@ -1,0 +1,41 @@
+*{ margin: 0; padding: 0; list-style: none; font-family: "맑은 고딕"; color: #333333;}
+body{width: 1000px; height: 650px; font-size: 16px;}
+a{text-decoration: none; display: block;}
+
+header {background-color: antiquewhite;}
+.menu{ background-color: aqua;}
+main{background-color: blue;}
+.img_slide{background-color: brown;}
+.text_contents h2 {background-color: aliceblue;}
+.notice{background-color: blueviolet;}
+.gallery{background-color: chartreuse;}
+.shortcuts{background-color: coral;}
+footer{background-color: darkcyan;}
+
+
+/* 헤더 */
+header{float: left; width: 200px; height: 650px;}
+/* 로고 */
+.header_logo{ height: 150px;}
+/* 메뉴 */
+.menu {background-color: black;}
+.menu >ul >li > a{color: white;}
+
+/* 메인 */
+main{float: right; width: 800px; height: 550px}
+/* 이미지 슬라이드 */
+.img_slide {height: 350px;}
+
+/* 컨텐츠 */
+.text_contents{height: 200px;}
+.notice, .gallery, .shortcuts {float: left;;height: 200px;}
+.notice {width: 300px;}
+.gallery { width: 300px;}
+.shortcuts{width: 200px;}
+
+/* 푸터 */
+footer {float: right;width: 800px; height: 100px;}
+.footer_logo, .copyright, .family_site {float: left; height: 100px;}
+.footer_logo{ width: 200px;}
+.copyright{ width: 400px;}
+.family_site{ width: 200px;}
